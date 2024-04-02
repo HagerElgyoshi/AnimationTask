@@ -1,0 +1,166 @@
+
+body{
+ height: 1750px;
+ background-image: url(../images/pexels-pixabay-53594.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ background-position: center;
+ overflow: auto;
+}
+.d1{
+    width: 100px;
+    height: 100px;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; 
+    margin-top: 100px ;
+  }
+  
+  @keyframes move {
+    from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(1330px); 
+      }
+  }
+.d2 {
+    width: 100px;
+    height: 100px;
+    animation-name: move2;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+    margin-top: 100px;
+    margin-left: 1330px;
+    position: relative;
+    right: 0; 
+}
+
+@keyframes move2 {
+    from {
+        right: 0; 
+    }
+    to {
+        right: 1340px;
+    }
+}
+.d3{
+    width: 100px;
+    height: 100px;
+    animation-name: move3;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; 
+    animation-delay: 10s;
+    margin-top: 100px;
+  }
+  
+  @keyframes move3 {
+    from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(1330px); 
+      }
+  }
+  .d4 {
+    width: 100px;
+    height: 100px;
+    animation-name: move4;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 15s;
+    margin-top: 100px;
+    margin-left: 1330px;
+    position: relative;
+    right: 0; 
+}
+
+@keyframes move4 {
+    from {
+        right: 0; 
+    }
+    to {
+        right: 1340px;
+    }
+}
+
+.d5{
+    width: 100px;
+    height: 100px;
+    animation-name: move5;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; 
+    animation-delay: 20s;
+    margin-top: 100px;
+  }
+  
+  @keyframes move5 {
+    from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(1330px); 
+      }
+  }
+  .d6 {
+    width: 100px;
+    height: 100px;
+    animation-name: move6;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 25s;
+    margin-top: 100px;
+    margin-left: 1330px;
+    position: relative;
+    right: 0; 
+}
+
+@keyframes move6 {
+    from {
+        right: 0; 
+    }
+    to {
+        right: 1340px;
+    }
+}
+.d7{
+    width: 100px;
+    height: 100px;
+    animation-name: move7;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; 
+    animation-delay: 30s;
+    margin-top: 100px;
+  }
+  
+  @keyframes move7 {
+    from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(1330px); 
+      }
+  }
+  .d8 {
+    width: 100px;
+    height: 100px;
+    animation-name: move8;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 35s;
+    margin-top: 100px;
+    margin-left: 1330px;
+    position: relative;
+    right: 0; 
+}
+
+@keyframes move8 {
+    from {
+        right: 0; 
+    }
+    to {
+        right: 1340px;
+    }
+}
